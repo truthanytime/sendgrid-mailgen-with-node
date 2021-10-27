@@ -1,0 +1,20 @@
+{
+  "name": "sendgrid-email",
+  "version": "1.0.0",
+  "description": "Send email with sendgrid and mailgen",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "orie chinedu",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mailgen": "^2.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
